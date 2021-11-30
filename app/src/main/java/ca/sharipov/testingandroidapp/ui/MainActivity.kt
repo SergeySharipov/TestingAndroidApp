@@ -1,8 +1,11 @@
-package ca.sharipov.testingandroidapp
+package ca.sharipov.testingandroidapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ca.sharipov.testingandroidapp.R
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
